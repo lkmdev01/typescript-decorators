@@ -1,1 +1,6 @@
-console.log("Oi")
+function Log(target: any){
+  console.log(target)
+}
+
+@Log
+class Exemplo{}
